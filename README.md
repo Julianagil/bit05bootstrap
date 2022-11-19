@@ -1,2 +1,3 @@
-# bit05bootstrap
-TRABAJO EN EQUIPO
+# TRABAJO EN EQUIPO
+## Proyecto basado en una compañia.
+### Autores...
