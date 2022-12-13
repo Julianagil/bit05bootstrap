@@ -1,0 +1,206 @@
+* {
+   margin: auto;
+   padding: 0;
+   box-sizing: border-box;
+   font-family:Arial, Helvetica, sans-serif;
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0 ;
+}
+  
+nav > a{
+    color: rgba(255, 255, 255, 0.93);
+    font-weight: 200px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+  
+nav >a:hover{
+    text-decoration: underline;
+}
+
+.titulo{
+    text-align: center;
+    height: 50px;
+    width: auto;
+    color: #ff6961;
+}
+
+.contenido{
+  display: flex;
+  align-items:stretch;
+  justify-content: center;
+  padding: 50px;
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, #838383e7 0%, rgb(0, 0, 0) 100%);
+}
+.contcaracteristicas{
+    padding: 60px 0;
+    
+    width: 100%;
+   /*  height: 300px; */
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 18px;
+}
+
+.contdescripcion{
+    padding: 60px 0;
+    width: 100%;
+    /* height: 300px; */
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-radius: 18px;
+}  
+
+
+.parrafos{
+    margin: 25px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border-radius: 18%;
+}
+
+/* HEADER */
+
+.header-1{
+  background: linear-gradient(0deg, hsla(0, 0%, 100%, 0.316) 0%, hsla(0, 100%, 50%, 0.317) 100%), url(./imgmenus/portadajp.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+.header-2{
+  background: linear-gradient(0deg, hsla(53, 100%, 50%, 0.216) 0%, hsla(0, 1%, 28%, 0.323) 100%), url(./imgmenus/portadach.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.header-3{
+  background: linear-gradient(0deg, hsla(0, 87%, 50%, 0.266) 0%, hsla(0, 0%, 100%, 0.333) 100%), url(./imgmenus/portadacr.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+header .titulos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .titulos-header h1{
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 150px;
+  }
+  
+  .titulos-header h2{
+    font-size: 30px;
+    color: #fff;
+  }
+
+  /*MENU*/
+
+  .titulo-menu{
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .galeria-menu{
+    height: 200px;
+    display: flex;
+    align-items:center;
+   /*  flex-direction:column; */
+    justify-content:flex-start ; 
+    /* position: absolute; */
+    flex-wrap:wrap;
+    padding: 25px;
+    
+  }
+  
+  .img-menu{
+    width: 24%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgb(0, 0, 0, .5);
+  }
+  
+  .img-menu > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    /* flex-direction: row; */
+  }
+
+  .img-menu .plato{
+    color: #000000;
+    padding: 1rem;
+  }
+
+  .img-menu .nomplato{
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(32, 32, 32);
+    color: #fff;
+  }
+  .hover-menu{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(0, 100%, 50%, 0.5);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+  }
+  
+  .hover-menu img{
+    width: 50px;
+  }
+  
+  .hover-menu p{
+    color: #fff;
+  }
+  
+  .img-menu:hover .hover-menu{
+    transform: scale(1);
+  }
+
+ .menu .titulo-menu{
+    text-align: center;
+    height: 50px;
+    width:auto;
+    
+ }
+
+@media (min-width: 300px) { 
+
+  .contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  }
+
+
+
