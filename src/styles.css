@@ -121,7 +121,7 @@ header .titulos-header{
     height: 200px;
     display: flex;
     align-items:center;
-    flex-direction:column; 
+    /* flex-direction:column;  */
     justify-content:flex-start ; 
     /* position: absolute; */
     flex-wrap:wrap;
